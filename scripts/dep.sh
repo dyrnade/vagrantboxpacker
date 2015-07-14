@@ -106,6 +106,7 @@ ln -s /app/env/lib/python2.7/site-packages/riak /opt/zato/2.0.5/zato_extra_paths
 ln -s /app/env/lib/python2.7/site-packages/riak_pb /opt/zato/2.0.5/zato_extra_paths/
 ln -s /app/env/lib/python2.7/site-packages/google /opt/zato/2.0.5/zato_extra_paths/
 ln -s /app/env/lib/python2.7/site-packages/passlib /opt/zato/2.0.5/zato_extra_paths/
+ln -s /app/ulakbus/ulakbus/ /opt/zato/2.0.5/zato_extra_paths/
 "
 
 riak-admin bucket-type create models '{"props":{"last_write_wins":true, "allow_mult":false}}'
